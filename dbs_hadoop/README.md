@@ -1,9 +1,13 @@
 # Check data in Mongo 
 
 db.adminCommand( { listDatabases: 1 } )
+
 use hadoop
+
 show collections
+
 db.elements.find().pretty()
+
 db.elements.count()
 
 
