@@ -1,0 +1,1 @@
+ElasticSatack, Flujos de datos y Datos en hadoop
