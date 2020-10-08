@@ -1,0 +1,32 @@
+version: "3.5"
+
+services:
+  mongo:
+    container_name: mongo_db
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    networks:
+      - platzi_db
+
+  mongo_seed:
+    container_name: mongo_seed
+    build: noSQL_db/.
+    networks:
+      - platzi_db
+    depends_on:
+      - mongo
+
+  mysql:
+    container_name: mysql_db
+    build: SQL_db/.
+    networks:
+      - platzi_db
+
+
+
+
+networks:
+  platzi_db:
+    name: platzi_db
+    driver: bridge
