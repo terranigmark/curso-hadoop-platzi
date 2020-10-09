@@ -39,10 +39,10 @@ root@hadoop-master:~#
 ##### 6. Un archivo txt de un libro
 
 ```
-wget https://raw.githubusercontent.com/terranigmark/curso-hadoop-platzi/master/2.fundamentos/Comparando_herramientas/Hadoop/odisea.txt
+wget https://raw.githubusercontent.com/terranigmark/curso-hadoop-platzi/master/2.fundamentos/1_Comparando_herramientas/Hadoop/odisea.txt
 ```
 ```
-curl -O https://raw.githubusercontent.com/terranigmark/curso-hadoop-platzi/master/2.fundamentos/Comparando_herramientas/Hadoop/odisea.txt
+curl -O https://raw.githubusercontent.com/terranigmark/curso-hadoop-platzi/master/2.fundamentos/1_Comparando_herramientas/Hadoop/odisea.txt
 ```
 
 ##### 7. Crear un directorio
