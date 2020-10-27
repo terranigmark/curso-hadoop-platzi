@@ -106,3 +106,6 @@ hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/sources/hadoop-mapreduce-examples
 ```
 hdfs dfs -cat output/part-r-00000
 ```
+
+
+Inspirado en https://github.com/kiwenlau/hadoop-cluster-docker
