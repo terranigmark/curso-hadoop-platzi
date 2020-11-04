@@ -1,16 +1,3 @@
-
-##### 1. pull docker image
-
-```
-sudo docker pull uracilo/hadoop
-```
-
-##### 2. Clonar repositorio github
-
-```
-git clone https://github.com/uracilo/hadoop.git
-```
-
 ##### 3. Crear red para el cluster de hadoop
 
 ```

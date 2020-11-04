@@ -72,7 +72,7 @@ public class WordCount {
   }
 }
 ```
-##### 3. revisar versiones
+##### 3. generar archivo de texto acontar
 
 ```
 mkdir input_file
@@ -85,26 +85,45 @@ hadoop fs -put input_data/input.txt /WordCountTutorial/Input
 
 ```
 
-##### 4. revisar versiones
+##### 4. Crear el directorio de clases para java
 
 ```
 mkdir tutorial_clases
 ```
 
+##### 5. Exportar variables de ambiente
+
+```
 export JAVA_HOME=/usr/java/default
 export PATH=${JAVA_HOME}/bin:${PATH}
 export HADOOP_CLASSPATH=/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar
+```
 
 
+##### 6. Generar las clases de nuestro ambiente
 
-
+```
 hadoop com.sun.tools.javac.Main WordCount.java
+```
+##### 7. Generar nuestro jar para java
+
+```
 jar cf wc.jar WordCount*.class
+```
 
+##### 8. Correr nuestro contador de palabras
 
+```
 hadoop jar $PWD/wc.jar WordCount /WordCountTutorial/Input /WordCountTutorial/Output
+```
+##### 9. Ver el resultado
 
+```
 hadoop fs -cat /WordCountTutorial/Output/part-r-00000
+```
+
+
+
 
 
 

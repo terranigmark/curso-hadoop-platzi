@@ -20,9 +20,16 @@ show tables;
 
 select * from user_details limit 4; 
 
+mysql -uroot --password=rootpwd -h 172.23.0.2 -P 3306
 
 
 
-docker-compose con bd 
--sqllite
--mongo 
+
+
+
+
+
+
+mongoexport --host 172.25.0.3 --db hadoop --collection elements --type csv --fields=first_name,gender  --out names.csv
+
+mysql -h 172.25.0.2 -u root --password=rootpwd -e "select * from db_name.user_details" -B > user_data.tsv
