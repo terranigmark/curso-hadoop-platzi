@@ -19,6 +19,6 @@ En este repo tu podras ver los distintos comandos que estaremos escribiendo para
 3.  [Taller 3](https://github.com/terranigmark/curso-hadoop-platzi/tree/3.MapReduce): MapReduce
 4.  [Taller 4](https://github.com/terranigmark/curso-hadoop-platzi/tree/4.operaciones): Cluster de hadoop y Administar un cluster de hadoop
 5.  [Taller 5](https://github.com/terranigmark/curso-hadoop-platzi/tree/5.toolkit): Avro,Parquet, Flume, Sqoop, , Hbase, Hive, Zookeer
-6.  [Taller 6](https://github.com/terranigmark/curso-hadoop-platzi/tree/dbs_hadoop): Bases de datos
+
 
 
