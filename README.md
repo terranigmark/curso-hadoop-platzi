@@ -7,6 +7,7 @@ Mediante este curso practicaremos algunas herramientas de virtualización con do
 
 ## Profesor: Benjamín Casazza 🐘
 Científico y arquitecto de datos
+
 Líder de comunidad [Docker Yuctan ](https://events.docker.com/docker-yucatan/)
 
 ### Este repositorio
