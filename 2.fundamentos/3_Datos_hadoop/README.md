@@ -1,1 +1,0 @@
-# Manejo de datos comprimidos
