@@ -19,7 +19,7 @@ En este repo tu podras ver los distintos comandos vistos por clase, que estaremo
 2.  [Módulo 2](https://github.com/terranigmark/curso-hadoop-platzi/tree/2_Reconocer_y_dise%C3%B1ar_flujo_de_datos): Fundamentos de hadoop
 3.  [Módulo 3](https://github.com/terranigmark/curso-hadoop-platzi/tree/3_MapReduce): MapReduce
 4.  [Módulo 4](https://github.com/terranigmark/curso-hadoop-platzi/tree/4_Desarrollar_un_cluster_de_hadoop): Operaciones con hadoop
-5.  [Módulo 5](https://github.com/terranigmark/curso-hadoop-platzi/tree/5_Conocer_Sqoop_e_integrar_Hbase): Conociendo el toolkit de Hadoop
+5.  [Módulo 5](https://github.com/terranigmark/curso-hadoop-platzi/tree/5_Conocer_Hive): Conociendo el toolkit de Hadoop
 
 
 
