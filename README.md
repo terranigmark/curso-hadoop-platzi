@@ -12,14 +12,17 @@ Líder de comunidad [Docker Yuctan ](https://events.docker.com/docker-yucatan/)
 
 ### Este repositorio
 
-En este repo tu podras ver los distintos comandos que estaremos escribiendo para ir conociendo y explorando las herramientas de hadoop en distintas ramas:
+En este repo tu podras ver los distintos comandos vistos por clase, que estaremos escribiendo para ir conociendo y explorando las herramientas de hadoop en distintas ramas:
 
 
-1.  [Taller 1](https://github.com/terranigmark/curso-hadoop-platzi/tree/1.introducci%C3%B3n): Configuracion de herramientas y Dockerfile de hadoop
-2.  [Taller 2](https://github.com/terranigmark/curso-hadoop-platzi/tree/2.fundamentos): ElasticSatack, Flujos de datos y Datos en hadoop
-3.  [Taller 3](https://github.com/terranigmark/curso-hadoop-platzi/tree/3.MapReduce/3.MapReduce): MapReduce
-4.  [Taller 4](https://github.com/terranigmark/curso-hadoop-platzi/tree/4.operaciones/4.operaciones): Cluster de hadoop y Administar un cluster de hadoop
-5.  [Taller 5](https://github.com/terranigmark/curso-hadoop-platzi/tree/5.toolkit/5.toolkit): Avro,Parquet, Flume, Sqoop, , Hbase, Hive, Zookeer
+1.  [Módulo 1](https://github.com/terranigmark/curso-hadoop-platzi/tree/1_Configurar_nuestro_entorno_con_Hadoop): Introducción a Hadoop
+2.  [Módulo 2](https://github.com/terranigmark/curso-hadoop-platzi/tree/2_Reconocer_y_dise%C3%B1ar_flujo_de_datos): Fundamentos de hadoop
+3.  [Módulo 3](https://github.com/terranigmark/curso-hadoop-platzi/tree/3_MapReduce): MapReduce
+4.  [Módulo 4](https://github.com/terranigmark/curso-hadoop-platzi/tree/4_Desarrollar_un_cluster_de_hadoop): Operaciones con hadoop
+5.  [Módulo 5](https://github.com/terranigmark/curso-hadoop-platzi/tree/5_Conocer_Sqoop_e_integrar_Hbase): Conociendo el toolkit de Hadoop
+
+
+
 
 
 
