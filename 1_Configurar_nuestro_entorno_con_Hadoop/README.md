@@ -7,7 +7,7 @@ sudo docker network create --driver=bridge hadoop
 ##### 2. Inicializar el cluster
 
 ```
-cd hadoop
+cd 1_Configurar_nuestro_entorno_con_Hadoop
 sudo ./start-container.sh
 ```
 
