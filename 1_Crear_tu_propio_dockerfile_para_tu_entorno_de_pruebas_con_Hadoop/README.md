@@ -38,7 +38,7 @@ echo "texto para hadoop" > ejemplo.txt
 ##### 5. Crear un directorio en hadoop
 
 ```
-hdfs dfs -mkdir platzi
+hdfs dfs -mkdir -p platzi
 ```
 
 ##### 6. Crear un archivo tipo tar.gz
