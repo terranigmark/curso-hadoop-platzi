@@ -29,8 +29,8 @@ sqoop import-all-tables \
 ```
 
 ```bash
-hadoop fs -ls /user/hive/warehouse/
-hadoop fs -ls /user/hive/warehouse/categories/
+hdfs dfs -ls /user/hive/warehouse/
+hdfs dfs -ls /user/hive/warehouse/categories/
 
 ```
 
