@@ -78,9 +78,9 @@ public class WordCount {
 mkdir input_file
 echo "hola mundo desde hadoop" > input_file/input.txt
 
-hadoop fs -mkdir /WordCountTutorial
-hadoop fs -mkdir /WordCountTutorial/Input
-hadoop fs -put input_data/input.txt /WordCountTutorial/Input
+hdfs dfs -mkdir /WordCountTutorial
+hdfs dfs -mkdir /WordCountTutorial/Input
+hdfs dfs -put input_data/input.txt /WordCountTutorial/Input
 
 
 ```
@@ -119,7 +119,7 @@ hadoop jar $PWD/wc.jar WordCount /WordCountTutorial/Input /WordCountTutorial/Out
 ##### 9. Ver el resultado
 
 ```
-hadoop fs -cat /WordCountTutorial/Output/part-r-00000
+hdfs dfs -cat /WordCountTutorial/Output/part-r-00000
 ```
 
 
