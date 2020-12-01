@@ -60,5 +60,5 @@ docker run -it --rm -p 9090:9090 myflume
 ## Comunicarnos con flume
 
 ```bash
-curl -X POST  -H 'Content-Type: application/json; charset=UTF-8'  -d '[{"headers":{"header.key":"header.value"}, "body":"ha ingresado un nuevo estudiante"}]'   localhost:1234
+curl -X POST  -H 'Content-Type: application/json; charset=UTF-8'  -d '[{"headers":{"header.key":"header.value"}, "body":"ha ingresado un nuevo estudiante"}]'   localhost:9090
 ```
