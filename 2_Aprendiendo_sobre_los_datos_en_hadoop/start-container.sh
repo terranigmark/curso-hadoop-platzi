@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Número default de nodos
-# Recordemos que los nodos son una configuracion de n-1
-N=${1:-4}
+N=${1:-3}
 
 
 # Iniciar el contenedor de hadoop-master
