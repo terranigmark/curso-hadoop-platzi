@@ -1,10 +1,10 @@
 version: "3.5"
+services:
   mysql:
     container_name: mysql_db
     build: SQL_db/.
     networks:
       - platzi
-
 networks:
   platzi:
     name: platzi
