@@ -1,3 +1,18 @@
+## Incializar el servicio 
+```bash
+ docker run \
+ 	--hostname=quickstart.cloudera \
+ 	--privileged=true  \
+ 	-it  \
+ 	-v $PWD:/src  \
+ 	--publish-all=true  \
+ 	-p 8888:8888  \
+ 	-p 8080:80  \
+ 	-p 7180:7180  \
+ 	-p 3306:3306  \
+ 	cloudera/quickstart  \
+ 	/usr/bin/docker-quickstart 
+```
 ## Abrir hbase
 ```bash
 hbase shell 
