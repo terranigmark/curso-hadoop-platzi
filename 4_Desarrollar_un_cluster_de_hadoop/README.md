@@ -1,4 +1,4 @@
-## Administrar un cluster de hadoop 
+## Desarrollar un cluster de Hadoop
 
 ```bash
  docker run \
